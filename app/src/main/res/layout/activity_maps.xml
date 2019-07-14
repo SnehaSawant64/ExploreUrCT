@@ -1,0 +1,49 @@
+<RelativeLayout
+android:layout_width="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <EditText
+            android:icon="@drawable/ic_search"
+            android:id="@+id/TF_location"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:textColor="#f1f2f7"
+            android:background="#282770"
+            android:textStyle="bold|italic"
+            android:id="@+id/B_search"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/TF_location"
+            android:onClick="onClick"
+            android:text="Search" />
+    </LinearLayout>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.priyanka.mapsdemo.MapsActivity"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/adjustment" />
+
+    <TextView
+        android:id="@+id/adjustment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</RelativeLayout>

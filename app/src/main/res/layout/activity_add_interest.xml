@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="com.example.android.exploreurct.AddInterestActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox android:id="@+id/cb1"
+        android:text=" Food"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb2"
+        android:text=" Museums"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb3"
+        android:text=" Ancient Buildings"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb4"
+        android:text=" Historical Places"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb5"
+        android:text=" Religious Places"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb6"
+        android:text=" Universities"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb7"
+        android:text=" Shopping malls"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb8"
+        android:text=" Gardens"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb9"
+        android:text=" Forts"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+
+    <CheckBox android:id="@+id/cb10"
+        android:text=" Hotels"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        />
+</LinearLayout>
+</ScrollView>
